@@ -3,7 +3,7 @@ module.exports = {
   USER: "b3222745161eba",
   PASSWORD: "be819079",
   DB: "heroku_5321eaa5c3343a7",
-  dialect: "heroku_5321eaa5c3343a7",
+  dialect: "mysql",
   pool: {
     max: 5,
     min: 0,
