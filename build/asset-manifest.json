@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.cdaae00e.chunk.css",
+    "main.js": "/static/js/main.df81f2ee.chunk.js",
+    "main.js.map": "/static/js/main.df81f2ee.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.5ca04477.js",
+    "runtime-main.js.map": "/static/js/runtime-main.5ca04477.js.map",
+    "static/css/2.58e1476c.chunk.css": "/static/css/2.58e1476c.chunk.css",
+    "static/js/2.c6546bc0.chunk.js": "/static/js/2.c6546bc0.chunk.js",
+    "static/js/2.c6546bc0.chunk.js.map": "/static/js/2.c6546bc0.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.966b8e1fff5ce2c88c18688b08eb2137.js": "/precache-manifest.966b8e1fff5ce2c88c18688b08eb2137.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.58e1476c.chunk.css.map": "/static/css/2.58e1476c.chunk.css.map",
+    "static/css/main.cdaae00e.chunk.css.map": "/static/css/main.cdaae00e.chunk.css.map",
+    "static/media/BlippoBlackBT.ttf": "/static/media/BlippoBlackBT.fe330e6f.ttf",
+    "static/media/all.min.css": "/static/media/fa-solid-900.8e1ed89b.woff2",
+    "static/media/App.css": "/static/media/login.db9aa21e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5ca04477.js",
+    "static/css/2.58e1476c.chunk.css",
+    "static/js/2.c6546bc0.chunk.js",
+    "static/css/main.cdaae00e.chunk.css",
+    "static/js/main.df81f2ee.chunk.js"
+  ]
+}
