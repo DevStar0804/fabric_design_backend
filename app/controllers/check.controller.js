@@ -9,7 +9,8 @@ const Op = db.Sequelize.Op;
 exports.check = (req, res) => {
   var ip = req.ip;
   var geo = geoip.lookup(ip);
-
+  if (!geo)
+    geo = {city:"unknown",country:"unknown"}
   const key = req.body.key;
   // console.log(key)
   Orderdetail.findOne({
