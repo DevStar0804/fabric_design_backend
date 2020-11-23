@@ -8,7 +8,8 @@ const Check = db.checks;
 const Op = db.Sequelize.Op;
 exports.check = (req, res) => {
   var ip = req.ip;
-  var geo = geoip.lookup(ip);
+  var ip1 = ip.split(':')[3];
+  var geo = geoip.lookup(ip1);
   if (!geo)
     geo = {city:"unknown",country:"unknown"}
   const key = req.body.key;
