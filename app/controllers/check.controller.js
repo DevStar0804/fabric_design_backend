@@ -34,7 +34,7 @@ exports.check = (req, res) => {
         // console.log(data);
         if (data.checked) {
           const check = Check.create({
-            ip_address: ip,
+            ip_address: ip1,
             address: geo.city + ', ' + geo.country, 
             orderdetailId: data.id
           })
@@ -62,7 +62,7 @@ exports.check = (req, res) => {
         }
         else {
           const check = Check.create({
-            ip_address: ip,
+            ip_address: ip1,
             address: geo.city + ', ' + geo.country,
             orderdetailId: data.id
           });
