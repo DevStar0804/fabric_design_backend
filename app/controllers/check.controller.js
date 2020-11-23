@@ -7,7 +7,7 @@ const Customer = db.customers;
 const Check = db.checks;
 const Op = db.Sequelize.Op;
 exports.check = (req, res) => {
-  var ip = req.body.ip;
+  var ip = req.ip;
   var geo = geoip.lookup(ip);
 
   const key = req.body.key;
